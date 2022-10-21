@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Result</title>
+</head>
+
+<body style="background-color: #D6EAF8 ; text-align:center;">
+    <header></header>
+    <main>
+        <section>
+            <div style="font-size:200%;">
+                <h1>RESULT</h1>
+            </div>
+            
+            <div>
+                {% if result==1 %}
+                <h2 style="font-family:verdana; color: green;">POSITIVE</h2>
+                {% endif %}
+
+                {% if result==0 %}
+                <h2 style="font-family:verdana; color: red;">NEGATIVE</h2>
+                {% endif %}
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
